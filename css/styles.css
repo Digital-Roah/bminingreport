@@ -705,7 +705,13 @@ h1,h2, h3, h4, h5, h6 {
     margin-top: 60px;
 }
 
-.footer-area h1,h2, h3, h4, h5, h6 {
+.footer-area h4 {
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-area h5 {
     font-family: "Source Sans 3", sans-serif;
     color: white;
     font-weight: 600;
