@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Bmining Report</title>
+        <title>Bams Report</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -33,6 +33,1259 @@
     </head>
 
     <body>
+
+        <header class="site-header">
+            <!-- place navbar here -->
+            <nav class="navbar navbar-light mb-1">
+                <div class="container-fluid">
+                    <div class="order-1 ms-lg-5 logo-div">
+                        <a class="navbar-brand" href="index.html"><img src="img/bams-logo.png" alt="" class="img-logo"></a>
+                    </div>
+
+                    <div class="order-0">
+
+                        <button class="navbar-toggler btn-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <span class="fa fa-bars"></span>
+                        </button>
+
+                        <button type="button" class="btn btn-searchnews" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <span class="fa fa-search"></span>
+                        </button>
+
+                        <!-- <div class="dropdown open d-inline">
+                            <a class="btn btn-userdrop dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="fa fa-user"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Disabled action</a>
+                            </div>
+                        </div> -->
+
+                        <div class="offcanvas offcanvas-start site-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                    <img src="img/bams-logo.png" class="img-offcanvas bg-white">
+                                </h5>
+                                <button type="button" class="btn btn-times" data-bs-dismiss="offcanvas" aria-label="Close"><span class="la la-times"></span></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form action="#un" method="get" class="d-flex">
+                                    <div class="input-group search-group mb-3">
+                                        <input type="search" name="q" class="form-control" placeholder="Search Here..." aria-label="Button" aria-describedby="" required/>
+                                        <button class="btn btn-search-red" type="submit" id="">
+                                            <span class="fa fa-search"></span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Politics</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Business</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Sports</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Entertainment</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Videos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Advertise with us</a>
+                                    </li>
+                                </ul>
+
+                                <hr style="color: gray;">
+                                <h5 class="text-white mt-3 text-poppins">Follow Us</h5>
+                                <div class="nav-socials mt-4">
+                                    <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-instagram"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-linkedin-in"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="order-2 d-md-block d-none">
+
+                        <a href="#un" class="btn btn-register">Register</a>
+                        <a href="#un" class="btn btn-login">Login</a>
+                        
+                        <!-- <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Button" aria-describedby=""/>
+                            <button class="btn btn-outline-secondary" type="button" id="">
+                                <span class="fa fa-search"></span>
+                            </button>
+                        </div> -->
+                        
+
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="menu-wrapper d-lg-block d-none" id="menu-wrapper">
+
+            <ul class="nav-list menu" id="menu">
+                <li class="item active"><a href="#un">Home</a></li>
+                <li class="item"><a href="#un">News</a></li>
+                <li class="item"><a href="#un">Politics</a></li>
+                <li class="item"><a href="#un">Business</a></li>
+                <li class="item"><a href="#un">Sports</a></li>
+                <li class="item"><a href="#un">Entertainment</a></li>
+                <li class="item"><a href="#un">Education</a></li>
+                <li class="item"><a href="#un">Videos</a></li>
+                <li class="item"><a href="#un">Advertise With Us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="auth-btns-area d-lg-none d-block">
+            <div class="container-fluid">
+                <a href="#un" class="btn btn-reg">Register</a>
+                <a href="#un" class="btn btn-log">Login</a>
+            </div>
+        </div>
+
+        </header>
+
+        
+        <div class="container-fluid">
+
+            <!-- ========== Start Ads Here ========== -->
+        <div class="ads-area my-3 wow bounceInLeft" data-wow-duration="1s" align="center">
+            <a href="#un" class="text-decoration-none">
+              <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+              <img src="img/advert-4.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+            </a>
+            </div>
+            <!-- ========== End Ads Here ========== -->
+
+            <div class="row">
+                <div class="col-lg-3 mt-section order-lg-0 order-2">
+
+                    <div class="side-news-full wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
+                        <a href="#un" class="text-decoration-none">
+                        <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                        <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                        <p class="font-500"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                        </a>
+                    </div>
+
+                    <div class="side-news-full wow fadeInLeft mt-3" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <a href="#un" class="text-decoration-none">
+                        <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                        <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                        <p class="font-500"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-section order-lg-1 order-0">
+
+                    <div class="banner-one wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                        <a href="#un" class="text-decoration-none">
+                       <img src="img/tinubu-gang.webp" class="img img-fluid" alt="Home Banner">
+                       <div class="banner-overlay"></div>
+                       <div class="banner-textarea">
+                          <h3>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h3>
+                          <p class="mt-3 mb-md-auto mb-2"> <i class="far fa-dot-circle banner-dot me-1"></i> <span class="banner-author">Joshua Isreal</span> <span class="banner-time">3hrs Ago</span></p>
+                       </div>
+                    </a>
+                    </div>
+
+                <!-- ========== Start Ads Here ========== -->
+                    <div class="ads-area my-3 wow fadeIn" data-wow-duration="1s" align="center">
+                    <a href="#un" class="text-decoration-none">
+                        <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                      <img src="img/advert-1.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                    </a>
+                    </div>
+                <!-- ========== End Ads Here ========== -->
+
+                </div>
+
+                <div class="col-lg-3 mt-section order-lg-2 order-1">
+                   <h4 class="section-head">Latest Stories</h4>
+
+                   <div class="news-responsive wow fadeInUp" data-wow-duration="1.5s">
+
+                   <div class="side-section-area">
+                    <a href="#un" class="text-decoration-none">
+                    <div class="row">
+                        <div class="col-7 order-lg-first order-last">
+                            <h6 class="font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                            <p><span class="fa fa-square text-brown me-1" style="font-size: 12px;"></span> <span class="font-500 text-light-brown">20 seconds ago</span></p>
+                        </div>
+                        <div class="col-5 order-lg-last order-first">
+                            <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid side-img lazy-img">
+                        </div>
+                    </div>
+                    </a>
+                   </div>
+
+                   
+                   <div class="side-section-area">
+                    <a href="#un" class="text-decoration-none">
+                    <div class="row">
+                        <div class="col-7 order-lg-first order-last">
+                            <h6 class="font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                            <p><span class="fa fa-square text-brown me-1" style="font-size: 12px;"></span> <span class="font-500 text-light-brown">20 seconds ago</span></p>
+                        </div>
+                        <div class="col-5 order-lg-last order-first">
+                            <img src="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid side-img">
+                        </div>
+                    </div>
+                    </a>
+                   </div>
+
+                   
+                   <div class="side-section-area">
+                    <a href="#un" class="text-decoration-none">
+                    <div class="row">
+                        <div class="col-7 order-lg-first order-last">
+                            <h6 class="font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                            <p><span class="fa fa-square text-brown me-1" style="font-size: 12px;"></span> <span class="font-500 text-light-brown">20 seconds ago</span></p>
+                        </div>
+                        <div class="col-5 order-lg-last order-first">
+                            <img src="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid side-img">
+                        </div>
+                    </div>
+                    </a>
+                   </div>
+
+                   <div class="side-section-area">
+                    <a href="#un" class="text-decoration-none">
+                    <div class="row">
+                        <div class="col-7 order-lg-first order-last">
+                            <h6 class="font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                            <p><span class="fa fa-square text-brown me-1" style="font-size: 12px;"></span> <span class="font-500 text-light-brown">20 seconds ago</span></p>
+                        </div>
+                        <div class="col-5 order-lg-last order-first">
+                            <img src="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid side-img">
+                        </div>
+                    </div>
+                    </a>
+                   </div>
+
+                   <div class="side-section-area">
+                    <a href="#un" class="text-decoration-none">
+                    <div class="row">
+                        <div class="col-7 order-lg-first order-last">
+                            <h6 class="font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                            <p><span class="fa fa-square text-brown me-1" style="font-size: 12px;"></span> <span class="font-500 text-light-brown">20 seconds ago</span></p>
+                        </div>
+                        <div class="col-5 order-lg-last order-first">
+                            <img src="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid side-img">
+                        </div>
+                    </div>
+                    </a>
+                   </div>
+
+                </div>
+
+                <div class="d-grid mt-4">
+                    <a href="#un" class="btn btn-news py-2">Latest News <span class="icofont icofont-double-right"></span></a>
+                </div>
+
+                </div>
+            </div>
+
+                <!-- ========== Start Ads Here ========== -->
+                    <div class="ads-area my-3 wow fadeIn" data-wow-duration="1s" align="center">
+                    <a href="#un" class="text-decoration-none">
+                        <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                      <img src="img/advert-2.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                    </a>
+                    </div>
+                <!-- ========== End Ads Here ========== -->
+
+            <section class="section-padding">
+
+                <div class="news-category-area">
+                    <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><span>Politics</span></a>
+                    </div>
+
+                    <div class="row">                        
+
+                        <div class="col-lg-6">
+                          <div class="news-cat-area mt-3 wow fadeInLeft" data-wow-duration="1.5s">
+                            <a href="#un" class="text-decoration-none">
+                              <img src="img/lazy-loader.gif" data-original="img/trump-birthright.webp" alt="" class="img img-fluid lazy-img">
+                              <h3 class="mt-4 font-600">Trump calls bishop ‘nasty’ over mercy for migrants, LGBTQ comment</h3>
+                              <p class="mt-3 mb-2 news-text">US President Donald Trump ordered federal employees of diversity offices to be put on paid leave by Wednesday night, and called a Washington bishop “nasty” after she ...</p>
+                              <p class="font-600 news-time"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="row">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section-padding">
+
+                <div class="news-category-area">
+                    <!-- <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><h2 class="text-brown font-600">Entertainment</h2></a>
+                        <hr>
+                    </div> -->
+                    <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><span>Entertainment</span></a>
+                    </div>
+
+                    <div class="row">                        
+
+                        <div class="col-lg-6">
+                          <div class="news-cat-area mt-3 wow fadeInLeft" data-wow-duration="1.5s">
+                            <a href="#un" class="text-decoration-none">
+                              <img src="img/lazy-loader.gif" data-original="img/trump-birthright.webp" alt="" class="img img-fluid lazy-img">
+                              <h3 class="mt-4 font-600">Trump calls bishop ‘nasty’ over mercy for migrants, LGBTQ comment</h3>
+                              <p class="mt-3 mb-2 news-text">US President Donald Trump ordered federal employees of diversity offices to be put on paid leave by Wednesday night, and called a Washington bishop “nasty” after she ...</p>
+                              <p class="font-600 news-time"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="row">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- ========== Start Ads Here ========== -->
+                <div class="ads-area my-3 wow fadeIn" data-wow-duration="1s" align="center">
+                <a href="#un" class="text-decoration-none">
+                    <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                  <img src="img/advert-3.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                </a>
+                </div>
+            <!-- ========== End Ads Here ========== -->
+
+            <section class="section-padding">
+                    <div class="row">
+                        <div class="col-lg-9">
+
+                            <div class="news-category-area">
+                                <div class="news-header">
+                                    <a href="#un" class="text-decoration-none"><span>Promoted</span></a>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-12">
+                                        <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                                            <a href="#un" class="text-decoration-none">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-5">
+                                                        <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                                    </div>
+                                                    <div class="col-lg-12 col-7">
+                                                        <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                                                        <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-12">
+                                        <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                            <a href="#un" class="text-decoration-none">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-5">
+                                                        <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                                    </div>
+                                                    <div class="col-lg-12 col-7">
+                                                        <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                                                        <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-12">
+                                        <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                            <a href="#un" class="text-decoration-none">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-5">
+                                                        <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                                    </div>
+                                                    <div class="col-lg-12 col-7">
+                                                        <h5>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h5>
+                                                        <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-12">
+                                        <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                            <a href="#un" class="text-decoration-none">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-5">
+                                                        <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                                    </div>
+                                                    <div class="col-lg-12 col-7">
+                                                        <h5>Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h5>
+                                                        <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="news-category-area pt-4">
+
+                                <div class="news-header">
+                                    <a href="#un" class="text-decoration-none"><span>Videos</span></a>
+                                </div>
+
+                                <div class="my-slider pt-3 wow fadeIn" data-wow-duration="1.5s">
+
+        
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/ukraine-hiding.jpg" alt="" class="lazy-img img-video">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Conscription squads send Ukrainian men into hiding</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/ukraine-hiding.jpg" alt="" class="img-video lazy-img">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Conscription squads send Ukrainian men into hiding</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/isreal-gaza.jpg" alt="" class="img-video lazy-img">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Israel announces daily military pause to increase Gaza aid</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/isreal-gaza.jpg" alt="" class="img-video lazy-img">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Israel announces daily military pause to increase Gaza aid</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/putin-ukraine.png" alt="" class="img-video lazy-img">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Putin peace terms slammed at Ukraine summit</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                    <div>
+                                    <div class="video-slide-area">
+                                        <a href="#un">
+                                            <img src="img/lazy-loader.gif" data-original="img/putin-ukraine.png" alt="" class="img-video lazy-img">
+                                            <div class="play-icon-area">
+                                                <div class="play-icon">
+                                                <span class="la la-play"></span>
+                                            </div>
+                                            </div>
+                            
+                                            <div class="video-content">
+                                                <h6>Putin peace terms slammed at Ukraine summit</h6>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                                
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+
+                            <!-- ========== Start Ads Here ========== -->
+                                <div class="ads-area my-3 wow bounceInRight" data-wow-duration="1s" align="center">
+                                <a href="#un" class="text-decoration-none">
+                                    <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                                  <img src="img/advert-2.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                                </a>
+                                </div>
+                            <!-- ========== End Ads Here ========== -->
+
+                            <!-- ========== Start Ads Here ========== -->
+                                <div class="ads-area my-3 wow bounceInRight" data-wow-duration="1s" align="center">
+                                <a href="#un" class="text-decoration-none">
+                                    <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                                  <img src="img/advert-1.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                                </a>
+                                </div>
+                            <!-- ========== End Ads Here ========== -->
+
+                        </div>
+                    </div>
+            </section>
+
+            <section class="section-padding">
+
+                <div class="news-category-area">
+                    <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><span>Sports</span></a>
+                    </div>
+
+                    <div class="row">                        
+
+                        <div class="col-lg-6">
+                          <div class="news-cat-area mt-3 wow fadeInLeft" data-wow-duration="1.5s">
+                            <a href="#un" class="text-decoration-none">
+                              <img src="img/lazy-loader.gif" data-original="img/trump-birthright.webp" alt="" class="img img-fluid lazy-img">
+                              <h3 class="mt-4 font-600">Trump calls bishop ‘nasty’ over mercy for migrants, LGBTQ comment</h3>
+                              <p class="mt-3 mb-2 news-text">US President Donald Trump ordered federal employees of diversity offices to be put on paid leave by Wednesday night, and called a Washington bishop “nasty” after she ...</p>
+                              <p class="font-600 news-time"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="row">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section-padding">
+
+                <div class="news-category-area">
+                    <!-- <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><h2 class="text-brown font-600">Entertainment</h2></a>
+                        <hr>
+                    </div> -->
+                    <div class="news-header">
+                        <a href="#un" class="text-decoration-none"><span>Business</span></a>
+                    </div>
+
+                    <div class="row">                        
+
+                        <div class="col-lg-6">
+                          <div class="news-cat-area mt-3 wow fadeInLeft" data-wow-duration="1.5s">
+                            <a href="#un" class="text-decoration-none">
+                              <img src="img/lazy-loader.gif" data-original="img/trump-birthright.webp" alt="" class="img img-fluid lazy-img">
+                              <h3 class="mt-4 font-600">Trump calls bishop ‘nasty’ over mercy for migrants, LGBTQ comment</h3>
+                              <p class="mt-3 mb-2 news-text">US President Donald Trump ordered federal employees of diversity offices to be put on paid leave by Wednesday night, and called a Washington bishop “nasty” after she ...</p>
+                              <p class="font-600 news-time"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="row">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Poor funding frustrating my work –  Communication minister Tijani laments</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="news-subcat-area mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                    <a href="#un" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-5">
+                                                <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                            </div>
+                                            <div class="col-lg-12 col-7">
+                                                <h5>Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h5>
+                                                <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- ========== Start Ads Here ========== -->
+                <div class="ads-area my-3 wow fadeIn" data-wow-duration="1s" align="center">
+                <a href="#un" class="text-decoration-none">
+                    <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                  <img src="img/advert-2.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                </a>
+                </div>
+            <!-- ========== End Ads Here ========== -->
+
+            <section class="section-padding">
+                <div class="row">
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="news-category-area wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+
+                            <div class="news-header">
+                                <a href="#un" class="text-decoration-none"><span>Special Report</span></a>
+                            </div>
+
+                            <div class="news-subcat-area mt-4">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Poor funding frustrating my work –  Communication minister Tijani laments</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="d-grid mt-4">
+                                <a href="#un" class="btn btn-news py-2">More Special Reports <span class="icofont icofont-double-right"></span></a>
+                            </div>
+        
+                    </div>
+
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="news-category-area wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+
+                            <div class="news-header">
+                                <a href="#un" class="text-decoration-none"><span>Technology</span></a>
+                            </div>
+
+                            <div class="news-subcat-area mt-4">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Poor funding frustrating my work –  Communication minister Tijani laments</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="d-grid mt-4">
+                                <a href="#un" class="btn btn-news py-2">More Technology <span class="icofont icofont-double-right"></span></a>
+                            </div>
+        
+                    </div>
+                    
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="news-category-area wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
+
+                            <div class="news-header">
+                                <a href="#un" class="text-decoration-none"><span>Education</span></a>
+                            </div>
+
+                            <div class="news-subcat-area mt-4">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">End To Birthright Citizenship, Other Executive Orders Trump Signed On Day 1 (FULL LIST)</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Trump-6.jpg" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Poor funding frustrating my work –  Communication minister Tijani laments</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tijani.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Wike, Fubara all smiles after meeting with Tinubu at Presidential Villa</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/tinubu-gang.webp" class="img img-fluid lazy-img" alt="Home Banner">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-subcat-area mt-3">
+                                <a href="#un" class="text-decoration-none">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h6 class="text-site-dark font-600">Immigration arrests 90 foreigners over alleged cybercrimes in Rivers</h6>
+                                            <p class="font-500 font-13"><span>2 days Ago |</span> <span class="text-brown">Andrew Johnson</span></p>
+                                        </div>
+                                        <div class="col-5">
+                                            <img src="img/lazy-loader.gif" data-original="img/Suspected-cybercriminals.webp" alt="" class="img img-fluid lazy-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="d-grid mt-4">
+                                <a href="#un" class="btn btn-news py-2">More Education <span class="icofont icofont-double-right"></span></a>
+                            </div>
+        
+                    </div>
+                    
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ========== Start Ads Here ========== -->
+                <div class="ads-area my-3 wow fadeIn" data-wow-duration="1s" align="center">
+                <a href="#un" class="text-decoration-none">
+                    <span class="text-raleway text-uppercase d-block font-600 font-14 mb-2 text-dark"><i>Advertisement</i></span>
+                  <img src="img/advert-3.jpg" alt="Advertisement" class="img img-fluid" style="max-height: 200px;">
+                </a>
+                </div>
+            <!-- ========== End Ads Here ========== -->
+
+        </div>
+
+        <div class="footer-area">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="index.html">
+                        <img src="img/bams-logo.png" alt="Bams Report" class="img img-fluid logo-footer">
+                       </a>
+
+                       <h4 class="mt-4">Follow Us</h4>
+
+                       <div class="nav-socials mt-4 mb-5">
+                        <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
+                        <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
+                        <a href="#un"><span class="fa-brands fa-instagram"></span></a>
+                        <a href="#un"><span class="fa-brands fa-linkedin-in"></span></a>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-2 offset-lg-1">
+
+                        <ul class="footer-list">
+                            <li><a href="#un">Politics</a></li>
+                            <li><a href="#un">Business</a></li>
+                            <li><a href="#un">Sports</a></li>
+                            <li><a href="#un">Entertainment</a></li>
+                            <li><a href="#un">Education</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <ul class="footer-list">
+                            <li><a href="#un">Special Reports</a></li>
+                            <li><a href="#un">Technology</a></li>
+                            <li><a href="#un">Promoted</a></li>
+                            <li><a href="#un">Metro</a></li>
+                            <li><a href="#un">More News</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <h5 class="text-uppercase">Newsletter</h5>
+
+                        <form action="" method="get">
+                            <div class="input-group news-group mb-4 mt-3">
+                                <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Button" aria-describedby=""/>
+                                <button class="btn btn-news" type="submit" id="">
+                                    <span class="fa fa-paper-plane-o"></span>
+                                </button>
+                            </div>
+                        </form>
+
+                        <h5 class="text-uppercase mt-4">Advertise with us</h5>
+
+                        <p class="text-white-50 font-13">Would you like Bams Reports to help you promote your brand?</p>
+
+                        <a href="#un" class="btn btn-footer btn-sm text-uppercase">Advertise Here</a>
+                        
+                    </div>
+                </div>
+
+                <br>
+            </div>
+
+            <div class="container-fluid footer-bottom mt-5">
+            <div class="row">
+                    
+                <div class="col-lg-4 text-lg-start text-center">
+                    <span>&copy; 2025 Bams Report.</span>
+                </div>
+
+                <div class="col-lg-8 text-lg-end text-center mt-lg-0 mt-3">
+                   <span><a href="#un">Home</a></span> <span class="mx-1">|</span> 
+                   <span><a href="#un">About Us</a></span>  <span class="mx-1">|</span> 
+                   <span><a href="#un">News</a></span> <span class="mx-1">|</span> 
+                   <span><a href="#un">Advertise with us</a></span> <span class="mx-1">|</span>  
+                   <span><a href="#un">Contact Us</a></span> <span class="mx-1">|</span>  
+                   <span><a href="#un">Privacy Policy</a></span>
+                </div>
+
+            </div>
+        </div>
+
+                
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
+
+        <!-- Advertisement Pop Up -->
+        <div class="modal animated bounceIn" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="max-width: 320px;" role="document">
+                <div class="modal-content adv-body">
+                    <div class="modal-body" align="center">
+                        <img src="img/bar-resturant-flyer.png" alt="" class="img-advert-modal">
+                        <a href="javascipt:void(0);" data-bs-dismiss="modal" class="close-advert">
+                            <span class="fa fa-times"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
         <!-- Bootstrap JavaScript Libraries -->
         <script src="bootstrap/js/popper.min.js"></script>
@@ -82,6 +1335,61 @@
   <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
   <!-- Slick Carousel JS -->
   <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $('.my-slider').slick({
+    // centerMode: true,
+    // centerPadding: '60px',
+    slidesToShow: 4,
+    dots: true,
+    dotsClass: 'myslider-dots',
+    autoplay:true,
+    speed: 2000,
+    autoplaySpeed:4000,
+    arrows: true,
+    nextArrow: '<button class="slider-arrow next inverted"><i class="la la-arrow-right text-white"></i></button>',
+    prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-arrow-left text-white"></i></button>',
+    responsive: [
+    {
+    breakpoint: 800,
+    settings: {
+    arrows: true,
+    // centerMode: true,
+    // centerPadding: '40px',
+    slidesToShow: 3
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+    arrows: true,
+    // centerMode: true,
+    // centerPadding: '40px',
+    slidesToShow: 1
+    }
+    }
+    ]
+    });
+    </script>
+
+    <!-- Jquery Lazyload -->
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('.lazy-img').lazyload();
+        });
+    </script>
+
+    <!-- Jquery Modal -->
+    <!-- <script src="js/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.modal.min.css"> -->
+    <script>
+        $(document).ready(function() {
+            setTimeout(() => {
+                $('#modalId').modal('show');
+            }, 5000);
+        });
+    </script>
 
     </body>
 </html>

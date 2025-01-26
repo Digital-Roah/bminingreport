@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 480px) {
+
+    .nav-list {
+        align-items: start;
+        justify-content: start;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .banner-one img {
+        height: 300px;
+    }
+
+    .container-fluid {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .news-subcat-area h5 {
+        font-size: 16px;
+    }
+
+    .news-header h2 {
+        font-size: 30px;
+    }
+
+    .video-slide-area .img-video {
+      width: 100%;
+      height: 180px;
+    }
+
+    .video-slide-area .play-icon-area {
+      width: 100%;
+      height: 180px;
+    }
+
+    .logo-div {
+        width: 70%;
+    }
+    
+}
