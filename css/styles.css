@@ -796,11 +796,6 @@ h1,h2, h3, h4, h5, h6 {
     border-radius: 0px;
   }
 
-  .footer-bottom {
-    color: white;
-    font-size: 12px;
-  }
-
   .footer-bottom a {
     color: white;
     text-decoration: none;
@@ -811,9 +806,11 @@ h1,h2, h3, h4, h5, h6 {
   }
 
   .footer-bottom {
-    background: #373435;
+    background: #252525;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: white;
+    font-size: 12px;
   }
 
   #myBtn {
