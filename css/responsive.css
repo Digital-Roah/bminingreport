@@ -1,5 +1,8 @@
 @media (max-width: 992px) {
-
+    .news-show-area iframe {
+        width : 100%;
+        height: 450px;
+      }
 }
 
 @media (max-width: 480px) {
@@ -41,6 +44,27 @@
 
     .logo-div {
         width: 70%;
+    }
+
+    .news-show-area iframe {
+        width : 100%;
+        height: 250px;
+    }
+
+    .category-content .category-textarea h5 {
+        font-size: 20px;
+    }     
+    
+    .category-content .category-textarea {
+        padding-left: 15px;
+    }
+
+    .category-content .category-textarea .desc {
+        font-size: 13px;
+    }
+      
+    .category-content .category-textarea .author {
+        font-size: 12px;
     }
     
 }

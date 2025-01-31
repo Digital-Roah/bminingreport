@@ -120,6 +120,18 @@ h1,h2, h3, h4, h5, h6 {
    font-size: 14px;
 }
 
+.font-15 {
+  font-size: 15px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
 .text-brown {
     color: #7F3A2F;
 }
@@ -695,6 +707,322 @@ h1,h2, h3, h4, h5, h6 {
 
 /***** End Home Page Area *****/
 
+/***** Show Page Styles *****/ 
+
+.page-bread {
+   font-weight: 500;
+}
+
+.page-bread a {
+  text-decoration: none;
+  color: #7F3A2F;
+  text-transform: uppercase;
+}
+
+.page-bread a:hover {
+  text-decoration: underline;
+}
+
+.news-show-area .author-head {
+  font-size: 15px;
+  font-family: 'Reddit Sans', sans-serif;
+}
+
+.share-area .share-icon i {
+  color: #e00e0e;
+  font-size: 17px;
+}
+
+.share-socials {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.share-socials li {
+  margin-right: 10px;
+}
+
+.share-socials li a span {
+  color: white;
+  background: #141414;
+  padding: 10px 11px;
+  border-radius: 50%;
+}
+
+.share-socials li a .fa-facebook-f {
+  background: #3c599f;
+}
+
+.share-socials li a .fa-x-twitter {
+  background: #000;
+}
+
+.share-socials li a .fa-linkedin-in {
+  background: #0085ae;
+}
+
+.share-socials li a .fa-whatsapp {
+  background: #4fce5d;
+}
+
+.share-socials li a .fa-pinterest-p {
+  background: #cb2027;
+}
+
+.share-socials li a .fa-envelope {
+  background:  #ea4445;
+}
+
+.share-socials li a .fa-copy {
+  background:  #1977d4;
+}
+
+.img-news {
+  width: 100%;
+}
+
+.news-show-content p {
+  font-size: 16px;
+}
+
+.news-show-content a {
+  color: black;
+  text-decoration-color: black;
+}
+
+.news-show-content img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.news-show-content figcaption {
+  font-size: 13px;
+  color: #888;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.like-dislike-area span {
+  font-size: 18px;
+}
+
+.like-dislike-area .count-icon {
+  cursor: pointer;
+}
+
+.like-dislike-area .count {
+  font-size: 17px;
+}
+
+.like-dislike-area .watch-later {
+  font-size: 18px;
+  text-decoration: none;
+  color: #A45E4D;
+}
+
+.btn-comment {
+  color: white;
+  border: 1px solid #7F3A2F !important;
+  background: #7F3A2F;
+  padding: 10px 20px;
+  border-radius: 0px;
+  transition:all 0.8s, color 0.3s 0.3s;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.btn-comment:hover {
+  color: #7F3A2F !important;
+  background: white !important;
+  box-shadow:300px 0 0 0 white inset !important;
+}
+
+.comments-content {
+  height: 450px;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
+/* width */
+.comments-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.comments-content::-webkit-scrollbar-track {
+  background: #dddbdb;
+  border-radius: 5px;
+}
+
+/* Handle */
+.comments-content::-webkit-scrollbar-thumb {
+  background: #A45E4D;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.comments-content::-webkit-scrollbar-thumb:hover {
+  background: #A45E4D;
+}
+
+.comments-content ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.comments-content ul li {
+  position: relative;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding-left: 45px;
+}
+
+.comment-avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  border-radius: 50%;
+}
+
+.news-show-area iframe {
+  width : 100%;
+  height: 500px;
+}
+
+/***** End Show Page Styles *****/
+
+/***** News Category Page *****/
+.category-content {
+  margin-top: 35px;
+  border-color: whitesmoke;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.category-content a {
+  text-decoration: none;
+}
+
+.category-content .category-textarea {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.category-content .category-textarea h5 {
+  color: #000;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.category-content .category-textarea .desc {
+  font-size: 14px;
+}
+
+.category-content .category-textarea .author {
+  font-size: 13px;
+}
+
+.category-content img {
+  min-height: 100%;
+}
+
+.newscat-cover {
+  position: relative;
+  height: 100%;
+}
+
+.newscat-cover .play-icon-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.newscat-cover .play-icon-area .play-icon {
+  top: 35%;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.newscat-cover .play-icon-area .play-icon .la-play {
+  color: white;
+  font-size: 30px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+/***** End News Category Page *****/
+
+/***** Contact Page Styles *****/
+.contact-form-area .contact-header h1 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+
+.contact-form-area .contact-header .red-bot {
+  width: 50px;
+  height: 3px;
+  background: #A45E4D;
+}
+
+.contact-group {
+  margin-top: 20px;
+}
+
+.contact-group .form-control {
+  font-size: 14px;
+  padding: 13px 20px;
+  border-radius: 0px;
+  font-weight: 400;
+  color: grey !important;
+}
+
+.contact-group .form-control:focus {
+  box-shadow: none;
+  color: initial;
+  border-color: #dee2e6;  
+}
+
+.contact-info-area {
+  padding-top: 30px;
+}
+
+.contact-info-area .info-area {
+  margin-top: 20px;
+}
+
+.btn-submit {
+  color: white;
+  border: 1px solid #7F3A2F !important;
+  background: #7F3A2F;
+  padding: 15px 30px;
+  border-radius: 0px;
+  transition:all 0.8s, color 0.3s 0.3s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn-submit:hover {
+  color: #7F3A2F !important;
+  background: white !important;
+  box-shadow:300px 0 0 0 white inset !important;
+}
+
+/***** End Contact Page Styles *****/
+
 /***** Footer Styles *****/
 .footer-area {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/footer-background.jpg) no-repeat center;
@@ -834,3 +1162,69 @@ h1,h2, h3, h4, h5, h6 {
   }
 
 /***** End Footer Styles *****/
+
+.about-h {
+  font-size: 2rem;
+}
+
+/***** Auth Styles *****/
+
+.auth-area {
+   background: white;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   padding: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.auth-area h2 {
+  font-size: 2rem;
+}
+
+.side-nav {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.side-nav li a {
+  color: #373435;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.side-nav li a span {
+  color: #7F3A2F;
+}
+
+.side-nav li.active a {
+  color: white;
+  background: #7F3A2F;
+}
+
+.side-nav li.active a span {
+  color: white;
+}
+
+.side-nav li a:hover {
+  color: white;
+  background: #7F3A2F;
+}
+
+.side-nav li a:hover span {
+  color: white;
+}
+
+.auth-pills .nav-link.active, .auth-pills .show>.nav-link {
+  color: white;
+  background-color: #A45E4D;
+}
+
+.auth-pills .nav-link {
+  color: #7F3A2F;
+  font-weight: 400;
+}
+
+/***** End Auth Styles *****/

@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bams Report</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- Favicon -->
+        <!-- <link rel="shortcut icon" href="img/smile-homes-logo.png" type="image/x-icon"> -->
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+            <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <!-- Icofont CSS -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="aos/aos.css">
+    <!-- Font Awesome JS -->
+    <script src="js/font-awesome.js"></script>
+    <!-- Line Awesome CSS -->
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.css">
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
+
+    </head>
+
+    <body>
+
+        <header class="site-header">
+            <!-- place navbar here -->
+            <nav class="navbar navbar-light mb-1">
+                <div class="container-fluid">
+                    <div class="order-1 ms-lg-5 logo-div">
+                        <a class="navbar-brand" href="index.html"><img src="img/bams-logo.png" alt="" class="img-logo"></a>
+                    </div>
+
+                    <div class="order-0">
+
+                        <button class="navbar-toggler btn-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <span class="fa fa-bars"></span>
+                        </button>
+
+                        <button type="button" class="btn btn-searchnews" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <span class="fa fa-search"></span>
+                        </button>
+
+                        <!-- <div class="dropdown open d-inline">
+                            <a class="btn btn-userdrop dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="fa fa-user"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Disabled action</a>
+                            </div>
+                        </div> -->
+
+                        <div class="offcanvas offcanvas-start site-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                    <img src="img/bams-logo.png" class="img-offcanvas bg-white">
+                                </h5>
+                                <button type="button" class="btn btn-times" data-bs-dismiss="offcanvas" aria-label="Close"><span class="la la-times"></span></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form action="#un" method="get" class="d-flex">
+                                    <div class="input-group search-group mb-3">
+                                        <input type="search" name="q" class="form-control" placeholder="Search Here..." aria-label="Button" aria-describedby="" required/>
+                                        <button class="btn btn-search-red" type="submit" id="">
+                                            <span class="fa fa-search"></span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Politics</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Business</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Sports</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Entertainment</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Videos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#un">Advertise with us</a>
+                                    </li>
+                                </ul>
+
+                                <hr style="color: gray;">
+                                <h5 class="text-white mt-3 text-poppins">Follow Us</h5>
+                                <div class="nav-socials mt-4">
+                                    <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-instagram"></span></a>
+                                    <a href="#un"><span class="fa-brands fa-linkedin-in"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="order-2 d-md-block d-none">
+
+                        <a href="#un" class="btn btn-register">Register</a>
+                        <a href="#un" class="btn btn-login">Login</a>
+                        
+                        <!-- <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Button" aria-describedby=""/>
+                            <button class="btn btn-outline-secondary" type="button" id="">
+                                <span class="fa fa-search"></span>
+                            </button>
+                        </div> -->
+                        
+
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="menu-wrapper d-lg-block d-none" id="menu-wrapper">
+
+            <ul class="nav-list menu" id="menu">
+                <li class="item active"><a href="#un">Home</a></li>
+                <li class="item"><a href="#un">News</a></li>
+                <li class="item"><a href="#un">Politics</a></li>
+                <li class="item"><a href="#un">Business</a></li>
+                <li class="item"><a href="#un">Sports</a></li>
+                <li class="item"><a href="#un">Entertainment</a></li>
+                <li class="item"><a href="#un">Education</a></li>
+                <li class="item"><a href="#un">Videos</a></li>
+                <li class="item"><a href="#un">Advertise With Us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="auth-btns-area d-lg-none d-block">
+            <div class="container-fluid">
+                <a href="#un" class="btn btn-reg">Register</a>
+                <a href="#un" class="btn btn-log">Login</a>
+            </div>
+        </div>
+
+        </header>
+
+        
+        <div class="container-fluid">
+
+            <div class="row py-5">
+
+                <div class="col-lg-3 col-md-4">
+                   <div class="card card-body">
+                     <ul class="side-nav">
+                        <li class="active"><a href="#un"><span class="pe-1 fa fa-user-o"></span> My Account</a></li>
+                        <li><a href="#un"><span class="pe-1 fa fa-bookmark-o"></span> Saved Posts</a></li>
+                        <li><a href="#un"><span class="pe-1 fa fa-bookmark-o"></span> Saved Videos</a></li>
+                     </ul>
+                   </div>
+                </div>
+
+                <div class="col-lg-9 col-md-8 pt-md-0 pt-4">
+
+                    <ul class="nav nav-pills auth-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span class="fa fa-user-o pe-1"></span> General Information</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span class="fa fa-recycle pe-1"></span> Change Password</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+                            <form action="#un" method="post">
+
+                                <div class="form-group contact-group">
+                                    <label for="name" class="form-label font-400">Name</label>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" value="Bred Harmond">
+                                </div>
+
+                                <div class="form-group contact-group">
+                                    <label for="email" class="form-label font-400">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="examplemail@gmail.com" disabled>
+                                </div>
+
+                                <div class="form-group contact-group">
+                                    <label for="phone" class="form-label font-400">Phone</label>
+                                    <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" value="090897486556">
+                                </div>
+
+                                <div class="form-check form-switch contact-group">
+                                    <input class="form-check-input" type="checkbox" name="subscribe" value="1" role="switch" id="flexSwitchCheckChecked" checked>
+                                    <label class="form-check-label font-400" for="flexSwitchCheckChecked">Subscribe to Newsletter</label>
+                                </div>
+
+                                <div style="margin-top: 25px;">
+                                    <button type="submit" class="btn btn-submit">Save Changes <span class="la la-download ps-1"></span></button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                            <form action="#un" method="post">
+
+                                <div class="form-group contact-group">
+                                    <label for="old_password" class="form-label font-400">Current Password</label>
+                                    <input type="password" name="old_password" id="old_password" class="form-control" placeholder="Current Password">
+                                </div>
+
+                                <div class="form-group contact-group">
+                                    <label for="password" class="form-label font-400">New Password</label>
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="New Password">
+                                </div>
+
+                                <div class="form-group contact-group">
+                                    <label for="password_confirmation" class="form-label font-400">Confirm New Password</label>
+                                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Confirm New Password">
+                                </div>
+
+                                <div style="margin-top: 25px;">
+                                    <button type="submit" class="btn btn-submit">Change <span class="la la-recycle ps-1"></span></button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-area wow fadeIn" data-wow-duration="1.5s">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="index.html">
+                        <img src="img/bams-logo.png" alt="Bams Report" class="img img-fluid logo-footer">
+                       </a>
+
+                       <h4 class="mt-4">Follow Us</h4>
+
+                       <div class="nav-socials mt-4 mb-5">
+                        <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
+                        <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
+                        <a href="#un"><span class="fa-brands fa-instagram"></span></a>
+                        <a href="#un"><span class="fa-brands fa-linkedin-in"></span></a>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-2 offset-lg-1">
+
+                        <ul class="footer-list">
+                            <li><a href="#un">Politics</a></li>
+                            <li><a href="#un">Business</a></li>
+                            <li><a href="#un">Sports</a></li>
+                            <li><a href="#un">Entertainment</a></li>
+                            <li><a href="#un">Education</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <ul class="footer-list">
+                            <li><a href="#un">Special Reports</a></li>
+                            <li><a href="#un">Technology</a></li>
+                            <li><a href="#un">Promoted</a></li>
+                            <li><a href="#un">Metro</a></li>
+                            <li><a href="#un">More News</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <h5 class="text-uppercase">Newsletter</h5>
+
+                        <form action="" method="get">
+                            <div class="input-group news-group mb-4 mt-3">
+                                <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Button" aria-describedby=""/>
+                                <button class="btn btn-news" type="submit" id="">
+                                    <span class="fa fa-paper-plane-o"></span>
+                                </button>
+                            </div>
+                        </form>
+
+                        <h5 class="text-uppercase mt-4">Advertise with us</h5>
+
+                        <p class="text-white-50 font-13">Would you like Bams Reports to help you promote your brand?</p>
+
+                        <a href="#un" class="btn btn-footer btn-sm text-uppercase">Advertise Here</a>
+                        
+                    </div>
+                </div>
+
+                <br>
+            </div>
+
+            <div class="container-fluid footer-bottom mt-5">
+            <div class="row">
+                    
+                <div class="col-lg-4 text-lg-start text-center">
+                    <span>&copy; 2025 Bams Report.</span>
+                </div>
+
+                <div class="col-lg-8 text-lg-end text-center mt-lg-0 mt-3">
+                   <span><a href="#un">Home</a></span> <span class="mx-1">|</span> 
+                   <span><a href="#un">About Us</a></span>  <span class="mx-1">|</span> 
+                   <span><a href="#un">News</a></span> <span class="mx-1">|</span> 
+                   <span><a href="#un">Advertise with us</a></span> <span class="mx-1">|</span>  
+                   <span><a href="#un">Contact Us</a></span> <span class="mx-1">|</span>  
+                   <span><a href="#un">Privacy Policy</a></span>
+                </div>
+
+            </div>
+        </div>
+
+                
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
+
+        <!-- Advertisement Pop Up -->
+        <!-- <div class="modal animated bounceIn" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="max-width: 320px;" role="document">
+                <div class="modal-content adv-body">
+                    <div class="modal-body" align="center">
+                        <a href="#un">
+                        <img src="img/bar-resturant-flyer.png" alt="" class="img-advert-modal">
+                    </a>
+                        <a href="javascipt:void(0);" data-bs-dismiss="modal" class="close-advert">
+                            <span class="fa fa-times"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <style>
+            #clip {
+  position: relative;
+  display: inline-block;
+}
+
+#clip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#clip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#clip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+          </style>
+        
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Jquery 3.5.1 -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+                <!-- WOW JS -->
+    <script src="js/wow.js"></script>
+    <script>
+        wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+        }
+        )
+        wow.init();
+
+    </script>
+    <!-- FancyBox JS -->
+    <script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+
+    <!-- AOS JS -->
+    <script src="aos/aos.js"></script>
+    <script>
+        /**
+    * Animation on scroll function and init
+    */
+    function aos_init() {
+    AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+    mirror: false
+    });
+    }
+    window.addEventListener('load', () => {
+    aos_init();
+    });
+    </script>
+
+  <!-- Slick JS -->
+  <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Slick Carousel JS -->
+  <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $('.my-slider').slick({
+    // centerMode: true,
+    // centerPadding: '60px',
+    slidesToShow: 4,
+    dots: true,
+    dotsClass: 'myslider-dots',
+    autoplay:true,
+    speed: 2000,
+    autoplaySpeed:4000,
+    arrows: true,
+    nextArrow: '<button class="slider-arrow next inverted"><i class="la la-arrow-right text-white"></i></button>',
+    prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-arrow-left text-white"></i></button>',
+    responsive: [
+    {
+    breakpoint: 800,
+    settings: {
+    arrows: true,
+    // centerMode: true,
+    // centerPadding: '40px',
+    slidesToShow: 3
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+    arrows: true,
+    // centerMode: true,
+    // centerPadding: '40px',
+    slidesToShow: 1
+    }
+    }
+    ]
+    });
+    </script>
+
+    <!-- Jquery Lazyload -->
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('.lazy-img').lazyload();
+        });
+    </script>
+
+    <!-- Jquery Modal -->
+    <!-- <script src="js/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.modal.min.css"> -->
+    <!-- <script>
+        $(document).ready(function() {
+            setTimeout(() => {
+                $('#modalId').modal('show');
+            }, 5000);
+        });
+    </script> -->
+
+    </body>
+</html>

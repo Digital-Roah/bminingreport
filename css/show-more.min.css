@@ -1,0 +1,6 @@
+.show-more-btn{background:transparent;border:1px solid rgb(55, 117, 55);color:white; background-color: rgb(55, 117, 55); cursor:pointer;font-size:15px;margin:auto;transition:color .3s ease-in-out;white-space:nowrap}
+.show-more-btn:hover{color:rgb(55, 117, 55); background-color: white;}
+
+.hidden {
+    display: none;
+}
